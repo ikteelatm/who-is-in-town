@@ -1,0 +1,10 @@
+
+.event {
+    border: 4px solid white;
+    padding-block-end: 20px;
+    cursor: pointer;
+}
+
+.event_content {
+    font-size: 1.5rem;
+}

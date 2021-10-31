@@ -1,0 +1,11 @@
+
+.img {
+    /*padding-inline-end: 20px;*/
+    float: left;
+}
+
+.band_information {
+    background-color: lightblue;
+    display: inline-grid;
+    margin-inline-start: 50px;
+}

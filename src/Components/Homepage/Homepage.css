@@ -1,0 +1,81 @@
+
+.left_side {
+    padding-right: 100px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    width: 500px;
+}
+
+.center {
+    margin:0 auto;
+}
+
+.right {
+    width: 200px;
+    position: fixed;
+    top: 100px;
+    right: 200px;
+}
+
+.all_events {
+    overflow-y: auto;
+    height: 500px;
+    margin-block-start: 30px;
+}
+
+.container {
+    padding: 50px;
+    display: flex;
+}
+
+.artist_band_information {
+    display: flex;
+    margin-block-start: 20px;
+}
+
+.event_information {
+    background-color: #61dafb;
+    padding-block-end: 20px;
+    margin-block-end: 20px;
+}
+
+.venue_information {
+    background-color: orange;
+    padding-block-end: 20px;
+}
+
+.selected_event_information {
+    background-color: antiquewhite;
+}
+
+.add_remove_favorite_btn {
+    margin-block-start: 20px;
+}
+
+.favorite {
+    background-color: bisque;
+    border: 4px solid white;
+    padding-block-end: 10px;
+    align-items: center;
+}
+
+.remove_from_favorite_btn {
+    float: left;
+    text-align: right;
+    width: fit-content;
+}
+
+.favorites_title {
+    background-color: cadetblue;
+}
+
+.favorite_event {
+    text-align: left;
+    width: fit-content;
+}
+
+.no_result_found {
+    background-color: red;
+    font-size: 2rem;
+}
